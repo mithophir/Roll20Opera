@@ -1,0 +1,1 @@
+/w gm &{template:default}  {{name=Dados}} {{Resultado em 1d6= [[1d6]]}} {{=}} {{Resultado em 2d6= [[ {1d6} + {1d6} ]] }}
