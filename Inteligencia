@@ -1,0 +1,2 @@
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Teste de Inteligência}} {{Teste em [[@{selected|inteligencia} + {?{Modificadores}}]]: = [[1d6]]+[[1d6]]}}
