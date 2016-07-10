@@ -1,0 +1,2 @@
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Teste de Percepção}} {{Teste em [[@{selected|percepcao} + {?{Modificadores}}]]: = [[1d6]]+[[1d6]]}}
