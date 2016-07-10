@@ -1,0 +1,2 @@
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Esquiva}} {{Valor:=[[{2d6} + @{selected|destreza} + @{selected|bonus_esquiva} + {?{Modificadores}}]]}}
