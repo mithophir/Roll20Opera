@@ -1,0 +1,6 @@
+//{?{Nome da Arma|Espada}}
+//{?{Bônus de Golpe|+1}}
+//{?{Nível da Habilidade com a Arma|0}}
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Golpe com ?{Nome da Arma}}} {{Ataca  @{target|token_name}}} {{Bônus Golpe:= ?{Bônus de Golpe}}} {{Hab. Arma:= ?{Nível da Habilidade com a Arma}}} {{Modificador:= ?{Modificadores}}} {{=}} {{Valor:=[[@{selected|destreza} + {?{Bônus de Golpe}} + {?{Nível da Habilidade com a Arma}} + {2d6} + {?{Modificadores}}]]}}
+/em Contra: Aparo / Esquiva
