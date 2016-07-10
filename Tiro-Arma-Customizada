@@ -1,0 +1,5 @@
+//{?{Nome da Arma|Blaster}}
+//{?{Bônus da Arma (TR ou TM)|+2}}
+//{?{Nível da Habilidade com a Arma|0}}
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Tiro com ?{Nome da Arma}}} {{Atira em @{target|token_name}}} {{Bônus de Tiro:= ?{Bônus da Arma (TR ou TM)}}} {{Hab. com Arma:= ?{Nível da Habilidade com a Arma}}} {{Modificador:= ?{Modificadores}}} {{=}} {{Teste:=[[@{selected|destreza} + {?{Bônus da Arma (TR ou TM)}} + {?{Nível da Habilidade com a Arma}} + {?{Modificadores}}]]}} {{Rolagem: = [[1d6]]+[[1d6]]}}
