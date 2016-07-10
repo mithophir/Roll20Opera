@@ -1,0 +1,2 @@
+//{?{Dano|1d3+2}}
+/em &{template:default} {{name=Dano Causado}} {{Dado de Dano:= ?{Dano}}} {{=}} {{Dano Causado:=[[{?{Dano}}]]}}
