@@ -1,0 +1,5 @@
+//{?{Nome da Arma|Alabarda}}
+//{?{Bônus de Aparo|+1}}
+//{?{Nível da Habilidade com a Arma|0}}
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Aparo com ?{Nome da Arma}}}  {{Bônus de Aparo:= ?{Bônus de Aparo}}} {{Hab. com Arma:= ?{Nível da Habilidade com a Arma}}} {{Modificador:= ?{Modificadores}}} {{=}} {{Valor:=[[@{selected|destreza} + {?{Bônus de Aparo}} + {?{Nível da Habilidade com a Arma}} + {2d6} + {?{Modificadores}}]]}}
