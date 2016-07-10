@@ -1,0 +1,3 @@
+//{?{Modificador de Distancia Invertido|0}}
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Teste Sabre vs Blaster}} {{Teste em [[@{selected|destreza} + @{selected|sabre_aparo} +@{selected|nivel_sabre} - 6 + {?{Modificadores}} + {?{Modificador de Distancia Invertido}}]]: = [[1d6]]+[[1d6]]}}
