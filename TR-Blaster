@@ -1,0 +1,3 @@
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Tiro Rápido Blaster}} {{Atira em:=@{target|token_name}}} {{Teste [[@{selected|destreza} + @{selected|tr_blaster} +@{selected|nivel_blaster} + {?{Modificadores}}]]: = [[1d6]]+[[1d6]]}}
+/w gm Descontar a carga da arma.
