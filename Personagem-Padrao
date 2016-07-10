@@ -1,0 +1,35 @@
+pontos_vida
+fisico
+destreza
+inteligencia
+percepcao
+vontade
+canalizacao_forca
+mente
+sorte
+bonus_iniciativa
+bonus_esquiva
+acoes_fisicas
+acoes_mentais
+arte_golpe  (usado para artes marciais)
+arte_aparo
+arte_esquiva
+deslocamento_andar
+deslocamento_correr
+sabre_golpe
+sabre_aparo
+nivel_sabre (nivel de habilidade com sabre)
+resistencia_A
+resistencia_B
+resistencia_C
+resistencia_D
+resistencia_E
+resistencia_F
+resistencia_G
+resistencia_H
+resistencia_I
+tm_blaster (bonus de tiro mirado)
+tr_blaster (bonus de tiro rapido)
+cad_blaster (cadencia da arma)
+carga_blaster (munição)
+nivel_blaster (nivel de habilidade com a arma)
