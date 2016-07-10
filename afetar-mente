@@ -1,0 +1,4 @@
+//{?{Nível de Poder (Máx de @{selected|afetar_mente})|1}}
+//{?{Modificadores|0}}
+/em &{template:default} {{name=Afetar Mente nv.?{Nível de Poder (Máx de @{selected|afetar_mente})}}} {{Alvo:= @{target|token_name}}} {{VS:= Vontade}} {{Valor:=[[{2d6} + @{selected|vontade} + {?{Nível de Poder (Máx de @{selected|afetar_mente})}} + {?{Modificadores}}]]}}
+/w gm Descontar em ?{Nível de Poder (Máx de @{selected|afetar_mente})} na Canalização da Força.
