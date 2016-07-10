@@ -1,0 +1,1 @@
+/em &{template:default} {{name=Resistência Mental}} {{Valor:=[[{2d6} + @{selected|mente} + {?{Modificadores}}]]}}
