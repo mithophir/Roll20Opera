@@ -1,0 +1,4 @@
+//{?{Modificador de Físico|0}}
+//{?{Modificador de Destreza|0}}
+//{?{Modificador de Inteligência|0}}
+/w gm &{template:default} {{name=Teste de Atributos}} {{Físico em [[@{selected|fisico} + {?{Modificador de Físico}}]]: = [[1d6]]+[[1d6]]}} {{Destreza em [[@{selected|destreza} + {?{Modificador de Destreza}}]]: = [[1d6]]+[[1d6]]}} {{Intelig. em [[@{selected|inteligencia} + {?{Modificador de Inteligência}}]]: = [[1d6]]+[[1d6]]}}
